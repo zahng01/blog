@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.wrap {
+    width: 234px;
+    height: 460px;
+    position: relative;
+    background-color: #ccc;
+    ;
+}
+
+.wrap .pen {
+    width: 234px;
+    height: 42px;
+    line-height: 42px;
+}
+
+.wrap .pen span {
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.wrap .pen a {
+    color: white;
+}
+
+.wrap .pen:hover {
+    background-color: orange;
+}
+
+.wrap .pen .da1 {
+    width: 460px;
+    height: 460px;
+    background-color: pink;
+    position: absolute;
+    left: 234px;
+    top: 0px;
+    /* display: none; */
+}
+.wrap .pen .da2 {
+    width: 460px;
+    height: 460px;
+    background-color: pink;
+    position: absolute;
+    left: 234px;
+    top: 0px;
+    display: none;
+}
+
+.wrap .pen .da1 .vr1 {
+    width: 190px;
+    height: 88px;
+    float: left;
+}
+.wrap .pen .da1 .vr2{
+    width: 290px;
+    height: 88px;
+    float: left;
+}
+p{
+    font-size: 13px;
+}
+.wrap .pen .da1 .vr1 img {
+    height: 65px;
+    float: left;
+    margin-left: 10px;
+}
+.wrap .pen .da1:hover li{
+    display: block;
+}
+.wrap .pen:hover .mi{
+    display: block;
+    }
